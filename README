@@ -1,5 +1,3 @@
-<!-- -*- markdown -*- -->
-
 About
 ====================
 This is a video addon for sc2casts.com for xbmc.
@@ -7,14 +5,15 @@ This is a video addon for sc2casts.com for xbmc.
 Features
 ====================
 * Browsing of Lastest/Most viewed
-* Playback of vods
+* Playback of vods hosted on youtube
 
 Installing
 ====================
-* Download [plugin.video.gomtv.net-0.0.3.zip](https://bitbucket.org/henrik/plugin.video.gomtv.net/downloads/plugin.video.gomtv.net-0.0.3.zip)
+* If you do not have the youtube addon installed already add it through the addonmanager
+* Download https://github.com/downloads/sucuriju/plugin.video.sc2casts.com/plugin.video.sc2casts.com-0.0.2.zip
 * Start xbmc and navigate to system -> add-ons -> install from zip file, browse to the file.
-* You're done! Use the add-on from the add-ons item in the video-browser.
+* Use the add-on from the add-ons item in the video-browser.
 
 Known issues
 ====================
-
+Only plays Youtube casts, not listing others.
