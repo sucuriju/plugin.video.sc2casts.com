@@ -1,9 +1,5 @@
 import urllib,urllib2,re,xbmcplugin,xbmcgui
 
-#SC2CASTS - by You 2008.
-#http://code.google.com/p/xbmc-addons/source/browse/addons/plugin.video.karaokeplay/default.py?r=1857
-
-
 def CATEGORIES():
         addDir('Latest','http://sc2casts.com/all',1,'')
         addDir('Top 24h','http://sc2casts.com/top',1,'')
@@ -129,13 +125,5 @@ elif mode==3:
         print ""+url
         PLAYVIDEO(url)
 
-#navigator = navigation.YouTubeNavigation()
-#core = YouTubeCore.YouTubeCore();
-#params = {}
-#params["videoid"] = "lL8ix3W6t8I" 
-#navigator.playVideo(params);
-#(video, status) = core.construct_video_url(params);
-#print video
-#addLink(video["Title"], video["video_url"],"");		
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]))
